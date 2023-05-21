@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.c261ea7d.css","mappings":"AAAA,OACI,SAAU,CACV,cACJ,CACA,SACI,WAAY,CACZ,cACJ","sources":["index.css"],"sourcesContent":[".error {\r\n    color: red;\r\n    font-size: 30px;\r\n}\r\n.success {\r\n    color: green;\r\n    font-size: 30px;\r\n}"],"names":[],"sourceRoot":""}
