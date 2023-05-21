@@ -2,12 +2,12 @@ const mongoose = require('mongoose')
 
 mongoose.set('strictQuery', false)
 
-const url = `mongodb+srv://uusposti456:${password}@cluster0.lppbvdq.mongodb.net/phoneBook?retryWrites=true&w=majority`
+const url = process.env.MONGODB_URI;
 
 mongoose.connect(url).then(result => {
     console.log("Connected");
 }).catch(error => {
-    console.log("Error");
+    console.log("Error!", error);
 })
 
 const personSchema = new mongoose.Schema({
